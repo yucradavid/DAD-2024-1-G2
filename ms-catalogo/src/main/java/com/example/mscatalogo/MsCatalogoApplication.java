@@ -17,7 +17,7 @@ public class MsCatalogoApplication {
     @Bean
     public OpenAPI custumOpenAPI(){
         return new OpenAPI().info (new Info()
-                .title("OPEN API MICROSERVICIO CATÁLOGO1")
+                .title("OPEN API MICROSERVICIO CATÁLOGO")
                 .version("0.0.1")
                 .description("servicio web catalogo")
                 .termsOfService("http://swagger.io/terms")
